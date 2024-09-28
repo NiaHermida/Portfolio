@@ -6,6 +6,10 @@
 .pnp.js
 .yarn/install-state.gz
 
+#settings
+/.vscode
+.vscode
+
 # testing
 /coverage
 
@@ -30,6 +34,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+#prehook
+.eslintcache
 
 # typescript
 *.tsbuildinfo

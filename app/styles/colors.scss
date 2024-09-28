@@ -1,0 +1,34 @@
+$white: #fcfcfc;
+$black: #070707;
+$neutral-black: #232222;
+$phthalo-green: #123524;
+
+$invalid-red-light: #e53e3e;
+$invalid-red-dark: #fc8181;
+
+$primary: $phthalo-green;
+$primary-l5: lighten($primary, 5%);
+
+$secondary: $phthalo-green; //!for now
+$progress-bar-primary: linear-gradient(
+  to right,
+  transparent 0%,
+  $primary 50%,
+  transparent 100%
+);
+$progress-bar-secondary: linear-gradient(
+  to right,
+  transparent 0%,
+  $secondary 50%,
+  transparent 100%
+);
+
+$whatsapp: #25d366;
+
+$children-light: #ffffff;
+$children-dark: #202124;
+$light-overlay: rgba(252, 252, 252, 0.95);
+$dark-overlay: rgba(24, 24, 28, 0.95);
+
+$background-light: #e6e7e9;
+$background-dark: #18181c;

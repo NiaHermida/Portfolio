@@ -1,3 +1,5 @@
+@import './styles/';
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -39,4 +41,20 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.PortfolioTextField,
+.PortfolioTextAreaField,
+.PortfolioSelectField,
+.PortfolioDatePicker,
+.PortfolioTimePicker,
+.PortfolioSwitchField,
+.PortfolioCheckboxGroup {
+  margin-bottom: $layout-margin;
+}
+
+.PortfolioField__Invalid {
+  color: $invalid-red-light;
+  margin-top: 2px;
+  font-size: $font-small;
 }
